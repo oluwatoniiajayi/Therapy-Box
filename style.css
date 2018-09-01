@@ -1,0 +1,121 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body
+{
+	font-size: 100%;
+	font-family: sans-serif;
+	background-image: url('plain.jpg');
+
+}
+.header
+{
+	width: 50%;
+	font-size: 50px;
+	margin: 50px auto 0px;
+	color: black;
+	text-align: center;
+	padding: 20px;
+}
+form, .content
+{
+	width: 39%;
+	margin: 50px auto;
+	padding: 20px;
+}
+.input-text
+{
+	margin: 10px 0px 10px 0px;
+}
+.input-text label
+{
+	margin: 3px;
+	text-align: left;
+}
+.input-text input
+{
+	height: 30px;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+.btn
+{
+	padding: 10px;
+	background: yellowgreen;
+	color: black;
+	font-size: 15px;
+	border-radius: 15px;
+	border: 1px solid #clclcl;
+	text-align: center;
+}
+.error 
+{
+	width: 92%; 
+	margin: 0px auto; 
+	padding: 10px; 
+	border: 1px solid #a94442; 
+	color: #a94442; 
+	background: #f2dede; 
+	border-radius: 5px; 
+	text-align: left;
+}
+.success
+{
+	color: #3c763d; 
+	background: #dff0d8; 
+	border: 1px solid #3c763d;
+	margin-bottom: 20px;
+}
+.input-text label
+{
+	margin-right: 20px;
+}
+
+.colum
+{
+    border: 50px solid #clclcl;
+    width: 298px;
+    margin: 20px 10px;
+    padding: 0 5px;
+    float: left;
+}
+.colum > p
+{
+	font-size: 14px;
+	color: #636363;
+	max-width: 250px;
+}
+.row
+{
+	width: 1000px;
+	margin: 0px auto;
+}
+h1
+{
+	font-size: 11px;
+	background-color: #clclcl;
+	color: #fffff;
+	font-weight: bold;
+}
+.services1
+{
+	width: 298px;
+	border: 1px solid #clclcl;
+	margin: 20px 10px;
+	padding: 0 50px;
+	float: left;
+}
+.services.1 > p
+{
+	font-size: 14px;
+	color: #636363;
+	max-width: 250px;
+}
+.services
+{
+	width: 320px;
+	margin: 0 auto;
+}
