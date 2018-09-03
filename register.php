@@ -6,9 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<div class="header">
-		<h1>Hackathon</h1>
-	</div>
+	<div class="header"> Hackathon </div>
 	
 	<form method="post" action="register.php">
 		<?php include ('errors.php'); ?>

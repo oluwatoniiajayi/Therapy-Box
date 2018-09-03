@@ -6,9 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<div class="header">
-		<h1>Hackathon</h1>
-	</div>
+	<div class="header"> Hackathon </div>
 	<form method="post" action="login.php">
 	    <div>
             <input type="text" name="username" placeholder="Username">
@@ -17,7 +15,7 @@
         <button>Login</button>
 	</form>
 	<footer>
-        New to the hackathon? <a href="register.php">Sign Up</a>
+        New to the hackathon? <a href="register.php" style="color:yellow;">Sign Up</a>
 	</footer>
 </body>
 </html> 	

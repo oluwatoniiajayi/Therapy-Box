@@ -37,6 +37,9 @@ h1
     text-align: center;
     flex-grow: 1;
     padding:10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: yellow;
     font-size: 1.5em;
     margin:20px;
     flex-basis: 26%;
@@ -44,11 +47,17 @@ h1
 }
 .header
 {
-	font-size: 2.5em;
-	margin: 25px auto 0px;
+	font-size: 3.0em;
+	margin: 25px auto 10px;
 	text-align: center;
 	padding: 5px;
-	font-weight: 400;
+}
+img
+{ 
+	width:150px;
+	height:100px;
+	margin:0px;
+	float:left;
 }
 form
 {
@@ -114,11 +123,8 @@ input
     color: #fff;
     width: 250px;
 }
-.right
+.images
 {
-	float: right;
-}
-.images{
 	width: 50%;
 }
 .image{
@@ -203,6 +209,10 @@ h1
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+.right
+{
+	float: right;
+}
 .box
 {
 	border-radius: 1px;
