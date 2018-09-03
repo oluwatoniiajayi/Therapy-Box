@@ -1,64 +1,42 @@
 <?php include('server.php')?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Home Page</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<style>
-		a:link 
-		{
-		    color: green;
-		    background-color: transparent;
-		    text-decoration: none;
-		}
-
-		a:visited
-		{
-		    color: pink;
-		    background-color: transparent;
-		    text-decoration: none;
-		}
-
-		a:hover
-		{
-		    color: red;
-		    background-color: transparent;
-		    text-decoration: underline;
-		}
-
-		a:active
-		{
-		    color: yellow;
-		    background-color: transparent;
-		    text-decoration: underline;
-		}
-</style> 
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Home Page</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<div>
-  		<?php if (isset($_SESSION['success'])) : ?>
-      		<div class="error success" >
-      			<h3>
-          			<?php echo $_SESSION['success']; unset($_SESSION['success']); ?>
-          		</h3>
-          	<?php endif ?>
-	</div>
 
 	<div class="header"> Good Day Swapnil </div>
-		<div align="center" class="services">
-			<div class="services1">
-				<h1>Weather</h1>
-				<a href="#"><img src="clouds_icon.png"></a> 
-				<p>Todays weather is nice</p>
-			</div>
+		<div class="grid">
+		<div style="color:black;">
+			Weather
 		</div>
-		<div class="services1">
-				<h1>Weather</h1>
-				<a href="#"><img src="clouds_icon.png"></a> 
-				<p>Todays weather is nice</p>
-			</div>
+		<div>
+			<a href="news.php">News</a>
 		</div>
-
-
+		<div>
+			<a href="sports.php">Sports</a>
+		</div>
+		<div>
+			<a href="photos.php">Photos</a>
+		</div>
+		<div>
+			<a href="tasks.php">Tasks</a>
+				<form action="tasks.php">
+					<input type="checkbox">
+					<br>
+					<input type="checkbox"> 
+					<br>
+					<input type="checkbox"> 
+					<br>
+				</form> 
+		</div>
+		<div style="color: black;">
+			Clothes
+		</div>
+   </div>
 </body>
 </html> 	

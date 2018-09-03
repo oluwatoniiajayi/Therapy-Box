@@ -8,12 +8,15 @@
 </head>
 <body>
 	<div class="header">
-		<h2>Further info - Weather, News and Sport</h2>
+		<h2 style="text-align: left;">News</h2>
+		<div class="box">
+		</div>
+	</div>
+	<div>
+		<h2 style="text-align: center; padding: 15px;">
+			News Headline
+		</h2>	
 	</div>
 
-	<div>
-		<h2> Weather </h2>
-	</div>
-	
 </body>
 </html> 	

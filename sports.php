@@ -8,12 +8,12 @@
 </head>
 <body>
 	<div class="header">
-		<h2>Further info - Weather, News and Sport</h2>
+		<h2 style="text-align:left;">Sports</h2>
 	</div>
 
-	<div>
-		<h2> Weather </h2>
-	</div>
+	<form>
+		<input type="text" name="" placeholder="Input Team Name">
+	</form>
 	
 </body>
 </html> 	
